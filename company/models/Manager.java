@@ -7,7 +7,6 @@ public class Manager extends Employee {
         super(name, salary, id, hireDate, position);
     }
 
-    @Override
     public void work() {
         System.out.println("Manager " + getName() + " is managing...");
     }

@@ -7,7 +7,6 @@ public final class Worker extends Employee {
         super(name, salary, id, hireDate, position);
     }
 
-    @Override
     public void work() {
         System.out.println("Worker " + getName() + " is working...");
     }
