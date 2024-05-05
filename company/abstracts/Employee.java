@@ -45,4 +45,7 @@ public abstract class Employee {
         Employee employee = (Employee) obj;
         return id == employee.id;
     }
+    public int getId() {
+        return id;
+    }
 }
